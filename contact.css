@@ -142,3 +142,149 @@ a.cp_btn:hover {
     font-size:15px;
     text-align:center;
 } 
+
+@media screen and (max-width: 640px) {
+
+    .header{
+        position: static;
+        background-color:#4aaaa5;
+    }    
+        
+        
+    .header-logo{
+        height:80px;
+        width:100%;
+        background-color:#4aaaa5;
+        color:white;
+        margin-right:50px;
+      } 
+    
+    
+    
+    .myname{
+        font-size: 28px;
+        color:white;
+        padding-right: 400px;
+        margin-right:60px;
+        
+    } 
+    
+    
+    
+      
+    ul {
+        list-style: none;
+        text-align: center;
+         margin-left:80px;
+        padding-right:190px;
+        
+      }
+    
+     
+    
+    li{
+        
+        padding: 15px 15px;
+        color:#777777;
+        
+    }
+    
+    a{
+        text-decoration:none;
+        color:#777777;
+    }
+    
+    a:hover{
+        color:#4aaaa5;
+    }
+    
+    
+    
+    .about-wrapper{
+        background-image: url("/Users/kihamoore/Desktop/Bootcamp/Responsive-Portfolio/css/images/intersection.png");
+        width:100%;
+        height:750px;
+        margin-bottom:-10px;
+        
+    }
+    
+    
+    .contact-form{
+        width:600px;
+        height:400px;
+        background-color:white;
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border:solid 1px #cccccc;
+        padding: 10px 10px;
+        margin-right:10px;
+        margin-top:100px;
+    }
+    
+    .contact{
+        color:#4aaaa5;
+        font-size:20px;
+        margin-bottom:20px;
+        padding-left:7px;
+    }
+    
+    hr{
+        background-color:#dddddd;
+        width:580px;
+        height:2px;
+        border:none;
+    }
+    
+    .contents{
+        color:#777777;
+        font-size:13px;
+        padding-left:8px;
+    }
+    
+    input[type="text"],
+    textarea {
+        outline: none;
+        border: 1px solid #aaa;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+    }
+    input[type="text"]:focus,
+    textarea:focus {
+         box-shadow: 0 0 7px #aafceb;
+        border: 1px solid #a0ecdd;
+    }
+    
+    
+    a.cp_btn {
+        display: block;
+        width: 100px;
+        padding: 0.8em;
+        text-align: center;
+        text-decoration: none;
+        color: #a0ecdd;
+        border: 2px solid #a0ecdd;
+        border-radius: 3px;
+        transition: .4s;
+        margin-left:10px;
+    }
+    a.cp_btn:hover {
+        background: #a0ecdd;
+        color: #fff;
+    }
+    .footer{
+        width:100%;
+        height:75px;
+        background-color:#666666;
+        position:absolute;
+        margin-top:10px;
+        border-top: 8px solid #4aaaa5;
+    }
+    
+    .footer-p{
+        color:white;
+        font-size:15px;
+        text-align:center;
+    } 
+}    
