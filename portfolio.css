@@ -57,14 +57,14 @@ a:hover{
 }
 
 .about-wrapper{
-    background-image: url("imges/intersection.png");
+    background-image: url("/css/imges/intersection.png");
     width:100%;
     height:730px;
     
 } 
 
 .about-wrapper{
-    background-image: url("../css/images/intersection.png");
+    background-image: url("/css/images/intersection.png");
     width:100%;
     height:730px;
     margin-bottom:-10px;
