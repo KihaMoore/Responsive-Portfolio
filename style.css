@@ -5,7 +5,7 @@ body{
 
 
 .header{
-    position: fixed;
+    /* position: fixed; */ 
     background-color:white;
     width:100%;
     height:80px;
@@ -42,6 +42,7 @@ ul {
     list-style: none;
     margin-left:100px;
     padding-right:400px;
+
   }
 
  
@@ -70,7 +71,6 @@ a:hover{
 
 .about-wrapper{
     background-image: url("/Users/kihamoore/Desktop/Bootcamp/Responsive-Portfolio/css/images/intersection.png");
-    background-size: contain;
     width:100%;
     height:740px;
     margin-bottom:-10px;
@@ -88,6 +88,149 @@ a:hover{
     border:solid 1px white;
     padding: 10px 10px;
     margin-right:10px; 
+    margin-top:50px;
+}
+
+
+
+
+
+.aboutme-letters {
+    letter-spacing: 0.05em
+}
+
+
+hr{
+    background-color:#dddddd;
+    width:900px;
+    height:2px;
+    border:none;
+    
+}
+
+h1{
+        color:#4aaaa5;
+        font-size:28px;
+        padding-left:30px;
+        padding-bottom:10px;
+    }
+
+img{
+    float:left;
+    width:170px;
+    height:170px;
+    margin-left:28px; 
+    margin-top:26px; 
+    margin-right:25px;
+}
+
+
+
+
+
+
+p{
+    font-size:20px;
+    line-height:40px;
+    color:#777777;
+    padding:10px 10px;
+
+}
+
+.footer{
+    width:100%;
+    height:75px;
+    background-color:#666666;
+    position:absolute;
+    margin-top:10px;
+    border-top: 8px solid #4aaaa5;
+}
+
+.footer-p{
+    color:white;
+    font-size:15px;
+    text-align:center;
+}
+@media screen and (max-width: 980px) {
+
+
+.header{
+    position: sticky;
+    background-color:white;
+    width:100%;
+    height:80px;
+    border-bottom: 3px solid #cccccc;
+
+
+}
+
+.header-logo{
+    float:left;
+    height:80px;
+    width:180px;
+    background-color:#4aaaa5;
+    color:white;
+    margin-left:400px;
+    
+} 
+
+
+
+.myname{
+    font-size: 28px;
+    color:white;
+    margin-top:10px;
+    margin-left:6px;
+    text-align:center;
+    padding-top:12px;
+}  
+
+
+
+  
+ul {
+    list-style: none;
+    padding-right:300px;
+  }
+
+ 
+
+li{
+    float:right;
+    padding: 20px 35px;
+    color:#777777;
+    
+}
+
+
+span{
+    font-weight:bold;
+}
+
+a{
+    text-decoration:none;
+    color:#777777;
+}
+
+a:hover{
+    color:#4aaaa5;
+}
+
+
+.about-wrapper{
+    background-image: url("/Users/kihamoore/Desktop/Bootcamp/Responsive-Portfolio/css/images/intersection.png");
+    /* background-size: contain; */
+    width:100%;
+    height:750px;
+
+    
+}
+
+.about-me{
+    margin-top:250px;
+    width:800px;
+    height:500px;
+    background-color:white;
 }
 
 
@@ -152,60 +295,49 @@ p{
 }
 
 
+    
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 980px) {
-    
-    body{
-        font-family: 'Georgia', Times, Times New Roman, serif;
-    }
-    
-    
-    
+
     .header{
-        position: fixed;
-        background-color:white;
-        width:100%;
-        height:80px;
-        border-bottom: 3px solid #cccccc;
-    
-    
-    }
-    
+        position: static;
+        background-color:#4aaaa5;
+    }    
+        
+        
     .header-logo{
-        float:left;
         height:80px;
-        width:180px;
+        width:100%;
         background-color:#4aaaa5;
         color:white;
-        margin-left:400px;
-        
-    } 
+        margin-right:50px;
+      } 
     
     
     
     .myname{
         font-size: 28px;
         color:white;
-        margin-top:10px;
-        margin-left:6px;
-        text-align:center;
-        padding-top:12px;
-    }  
+        padding-right: 450px;
+    } 
     
     
     
       
     ul {
         list-style: none;
-        margin-left:100px;
-        padding-right:400px;
+        text-align: center;
+        margin-left:80px;
+        padding-right:190px;
+        
+        
       }
     
      
     
     li{
-        float:right;
-        padding: 20px 35px;
+        
+        padding: 15px 15px;
         color:#777777;
         
     }
@@ -227,48 +359,32 @@ p{
     
     .about-wrapper{
         background-image: url("/Users/kihamoore/Desktop/Bootcamp/Responsive-Portfolio/css/images/intersection.png");
-        background-size: contain;
         width:100%;
-        height:740px;
-        margin-bottom:-10px;
+        height:750px;
+        padding:0 auto;
         
+         
     }
-    
+
     .about-me{
-        width:960px;
-        height:450px;
+        width:80%;
+        height:400px;
         background-color:white;
-        position: absolute;
-        top: 50%; 
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border:solid 1px white;
-        padding: 10px 10px;
-        margin-right:10px; 
-    }
+        margin-top:200px;
+        /* padding-top:30px; */
+   }
     
     
-    
-    
-    
-    .aboutme-letters {
-        letter-spacing: 0.05em
-    }
-    
-    
-    hr{
-        background-color:#dddddd;
-        width:900px;
-        height:2px;
-        border:none;
-        
-    }
     
     h1{
             color:#4aaaa5;
             font-size:28px;
-            padding-left:30px;
-            padding-bottom:10px;
+            text-align: center;
+            margin-top:10px;
+            margin-bottom:-10px;
+            
+            /* padding-left:30px;
+            padding-bottom:10px; */
         }
     
     img{
@@ -276,8 +392,8 @@ p{
         width:170px;
         height:170px;
         margin-left:28px; 
-        margin-top:26px; 
-        margin-right:25px;
+        /* margin-top:26px; 
+        margin-right:25px; */ 
     }
     
     
@@ -286,160 +402,8 @@ p{
     
     
     p{
-        font-size:20px;
-        line-height:40px;
-        color:#777777;
-        padding:10px 10px;
-    
-    }
-    
-    .footer{
-        width:100%;
-        height:75px;
-        background-color:#666666;
-        position:absolute;
-        margin-top:10px;
-        border-top: 8px solid #4aaaa5;
-    }
-    
-    .footer-p{
-        color:white;
-        font-size:15px;
-        text-align:center;
-    }
-    
-    
-@media screen and (max-width: 660px) {
-
-	.header{
-        background-color: #4aaaa5;
-        position: static;
-        background-color: white;
-        width:100%;
-        height:80px; 
-        border-bottom: 1px solid #cccccc;
-    
-    }
-    
-    
-    
-    .header-logo{
-        float:left;
-        height:auto;
-        width:100%px;
-        background-color:#4aaaa5;
-        color:white;
-        margin-left:230px;
-         
-    } 
-    
-    
-    
-    .myname{
-        font-size: 28px; 
-        color:white;
-        margin-top:10px;
-        margin-left:6px; 
-    } 
-    
-    
-    
-      
-    ul {
-        list-style: none;
-        text-align: center;
-        margin-left:80px;
-        padding-right:220px; 
-        
-      }
-    
-     
-    
-    li{
-        float:right;
-        padding: 25px 35px; 
-        color:#777777;
-        
-    }
-    
-    
-    span{
-        font-weight:bold;
-    }
-    
-    a{
-        text-decoration:none;
-        color:#777777;
-    }
-    
-    a:hover{
-        color:#4aaaa5;
-    }
-    
-    
-    .about-wrapper{
-        background-image: url("../images/intersection.png");
-        background-size: cover;
-        width:100%;
-        height:500px;
-        margin-bottom: -10px;
-         
-    }
-    
-    .about-me{
-        width:100%;
-        height:auto;
-        background-color:white;
-        position: absolute;
-        /* top: 50%; 
-        left: 50%; */
-        transform: translate(-50%, -50%);
-        border:solid 1px white;
-        padding: 10px 10px;
-        margin-right:10px; 
-    }
-    
-    
-    
-    
-    
-    .aboutme-letters {
-        letter-spacing: 0.05em
-    }
-    
-    
-    /* hr{
-        background-color:#dddddd;
-        width:30px;
-        height:2px;
-        border:none;
-        
-    } */
-    
-    h1{
-            color:#4aaaa5;
-            font-size:28px;
-            /* padding-left:30px;
-            padding-bottom:10px; */
-        }
-    
-    img{
-        object-fit:  cover;
-        width:170px;
-        height:170px;
-        /* margin-left:28px; 
-        margin-top:26px; 
-        margin-right:25px; */
-    }
-    
-    
-    
-    
-    
-    
-    p{
-        font-size:20px;
-        line-height:40px;
+        font-size:13px;
+        line-height:25px;
         color:#777777;
         /* padding:10px 10px; */
     
@@ -449,10 +413,11 @@ p{
         width:100%;
         height:75px;
         background-color:#666666;
-        position:fixed;
+        position:fixed; 
         bottom: 0;
         margin-top:10px;
         border-top: 8px solid #4aaaa5;
+        margin-bottom:-15px
     }
     
     .footer-p{
@@ -461,10 +426,10 @@ p{
         text-align:center;
     }
     
-    
 }
 
-}
+
+
 
 @media screen and (max-width: 640px) {
 
@@ -526,19 +491,19 @@ p{
     
     
     .about-wrapper{
-        background-image: url("../images/intersection.png");
-        background-size: cover;
-        width:80%;
-        height:auto;
+        background-image: url("/Users/kihamoore/Desktop/Bootcamp/Responsive-Portfolio/css/images/intersection.png");
+        width:100%;
+        height:800px;
         /* margin-bottom:-10px;
          */
     }
     
     .about-me{
-        width:100%;
-        height:auto;
+        width:450px;
+        height:500px;
         background-color:white;
-        padding-top:10px;
+        padding-top:12px;
+        margin-bottom:100px; 
 
 
         /* top: 50%; 
@@ -550,21 +515,13 @@ p{
     }
     
     
-    
-    
-    
-    .aboutme-letters {
-        
-    }
-    
-    
-    /* hr{
+    hr{
         background-color:#dddddd;
-        width:30px;
+        width:500px;
         height:2px;
         border:none;
         
-    } */
+    } 
     
     h1{
             color:#4aaaa5;
@@ -615,4 +572,5 @@ p{
         text-align:center;
     }
     
+}
 }

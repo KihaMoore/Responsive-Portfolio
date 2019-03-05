@@ -91,6 +91,9 @@ hr{
     border:solid 1px #cccccc;
     padding: 10px 10px;
     margin-right:10px;
+    margin-top:100px;
+    padding-bottom:30px;
+    margin-bottom:50px; 
 }
 
 h1{
@@ -226,6 +229,451 @@ img{
     text-align:center;
 } 
 
+
+@media screen and (max-width: 980px){
+
+.header{
+    position: sticky;
+    background-color:white;
+    width:100%;
+    height:80px;
+    border-bottom: 3px solid #cccccc;
+
+}
+
+.header-logo{
+    float:left;
+    height:80px;
+    width:180px;
+    background-color:#4aaaa5;
+    color:white;
+    margin-left:400px;
+    
+} 
+
+.myname{
+    font-size: 28px;
+    color:white;
+    margin-top:10px;
+    margin-left:6px;
+    text-align:center;
+    padding-top:12px;
+}
+
+
+
+ul {
+    list-style: none;
+    padding-right:300px;
+  }
+
+ 
+
+li{
+    float:right;
+    padding: 20px 35px;
+    color:#777777;
+    
+}
+
+a{
+    text-decoration:none;
+    color:#777777;
+}
+
+a:hover{
+    color:#4aaaa5;
+}
+
+
+.about-wrapper{
+    background-image: url("/Users/kihamoore/Desktop/Bootcamp/Responsive-Portfolio/css/images/intersection.png");
+    width:100%;
+    height:790px;
+    margin-bottom:-10px;
+    
+}
+
+hr{
+
+    background-color:#dddddd;
+    width:580px;
+    height:2px;
+    border:none;
+}
+
+
+.gallery{
+    width:600px;
+    height:550px;
+    background-color:white;
+    position: absolute;
+	top: 50%; 
+	left: 50%;
+    transform: translate(-50%, -50%);
+    border:solid 1px #cccccc;
+    padding: 10px 10px;
+    margin-right:10px;
+    margin-top:300px;
+}
+
+h1{
+    font-size:20px;
+}
+
+img{
+    width:170px;
+    height:170px;
+}
+
+.example1{
+    position: relative;
+    float:left;
+    padding:20px 10px;
+    
+    }
+
+.example1 p{
+    font-size:	19px;
+	text-align:	center;
+	bottom:		24px;
+	margin:		0;
+	padding:	0;
+	color:		#fff;
+    background:	#a0ecdd; 
+    opacity: 0.8;
+    position:	absolute; 
+    width:		170px;
+}
+        
+.example1:hover{
+    color:blue;
+}
+    
+.example2{
+    position: relative;
+    float:left;
+    padding-right:15px;
+    padding:20px 10px;
+}
+
+.example2 p{
+    font-size:	19px;
+	text-align:	center;
+	bottom:		24px;
+	margin:		0;
+	padding:	0;
+	color:		#fff;
+	background:	#a0ecdd; 
+    position:	absolute; 
+    width:		170px;
+    opacity: 0.8;
+}
+
+.example3{
+    position: relative;
+    float:left;
+    padding-right:15px;
+    padding:20px 10px;
+}
+
+.example3 p{
+    font-size:	19px;
+	text-align:	center;
+	bottom:		24px;
+	margin:		0;
+	padding:	0;
+	color:		#fff;
+	background:	#a0ecdd; 
+    position:	absolute; 
+    width:		170px;
+    opacity: 0.8;
+}
+
+.example4{
+    position: relative;
+    float:left;
+    padding-right:15px;
+    padding:20px 10px;
+}
+
+
+.example4 p{
+    font-size:	19px;
+	text-align:	center;
+	bottom:		24px;
+	margin:		0;
+	padding:	0;
+	color:		#fff;
+	background:	#a0ecdd;
+    position:	absolute; 
+    width:		170px;
+    opacity: 0.8;
+}
+
+
+.example5{
+    position: relative;
+    float:left;
+    padding-right:15px;
+    padding:20px 10px;
+    
+}
+
+.example5 p{
+    font-size:	19px;
+	text-align:	center;
+	bottom:		24px;
+	margin:		0;
+	padding:	0;
+	color:		#fff;
+	background:	#a0ecdd;
+    position:	absolute; 
+    width:		170px;
+    opacity: 0.8;
+    
+}
+
+
+.footer{
+    width:100%;
+    height:75px;
+    background-color:#666666;
+    position:absolute;
+    margin-top:10px;
+    border-top: 8px solid #4aaaa5;
+}
+
+.footer-p{
+    color:white;
+    font-size:15px;
+    text-align:center;
+} 
+
+
+}
+@media screen and (max-width: 768px) {
+
+    .header{
+        position: static;
+        background-color:#4aaaa5;
+    }    
+        
+        
+    .header-logo{
+        height:80px;
+        width:100%;
+        background-color:#4aaaa5;
+        color:white;
+        text-align: center;
+      } 
+    
+    
+    
+    .myname{
+        font-size: 28px;
+        color:white;
+        padding-right: 400px;
+        margin-right:60px;
+        
+    } 
+      
+    ul {
+        list-style: none;
+        text-align: center;
+         margin-left:80px;
+        padding-right:190px;
+        
+      }
+    
+     
+    
+    li{
+        
+        padding: 45px 15px;
+        color:#777777;
+        
+    }
+    
+    a{
+        text-decoration:none;
+        color:#777777;
+    }
+    
+    a:hover{
+        color:#4aaaa5;
+    }
+
+    .about-wrapper{
+        background-image: url("/Users/kihamoore/Desktop/Bootcamp/Responsive-Portfolio/css/images/intersection.png");
+        width:100%;
+        height:3000px;
+        padding:0 auto;
+        /* margin-top:10px;
+         */
+
+        /* padding-top:-300px; */
+         
+    }
+   
+    
+    hr{
+    
+        background-color:#dddddd;
+        width:400px;
+        height:2px;
+        border:none;
+    }
+    
+    
+    .gallery{
+        
+        margin-top:1400px;
+        width:80%;;
+        height:2700px;
+        
+        
+    } 
+    
+    h1{
+        font-size:20px;
+        padding-left:50px;
+    }
+    
+    img{
+        width:80%;
+        height:80%;
+        padding-left:55px
+    }
+    
+    .example1{
+        position: relative; 
+        /* float:left; */
+        /* padding-right:10px; */
+        padding-right:15px;
+        padding:20px 10px;
+        }
+    
+    .example1 p{
+        font-size:	19px;
+        text-align:	center;
+        bottom:		24px;
+        margin-left:54px;
+        padding:	10px;
+        color:		#fff;
+        background:	#a0ecdd; 
+        opacity: 0.8;
+        position:	absolute; 
+        width:		457px;
+    }
+            
+    .example1:hover{
+        color:blue;
+    }
+        
+    .example2{
+        position: relative;
+        /* float:left; */
+        padding-right:15px;
+        padding:20px 10px;
+    }
+    
+    .example2 p{
+        font-size:	19px;
+        text-align:	center;
+        bottom:		24px;
+        margin-left:54px;
+        padding:	10px;
+        color:		#fff;
+        background:	#a0ecdd; 
+        position:	absolute; 
+        width:		457px;
+        opacity: 0.8;
+    }
+    
+    .example3{
+        position: relative;
+        /* float:left; */
+        padding-right:15px;
+        padding:20px 10px;
+    }
+    
+    .example3 p{
+        font-size:	19px;
+        text-align:	center;
+        bottom:		24px;
+        margin-left:54px;
+        padding:	10px;
+        color:		#fff;
+        background:	#a0ecdd; 
+        position:	absolute; 
+        width:		457px;
+        opacity: 0.8;
+    }
+    
+    .example4{
+        position: relative;
+        /* float:left; */
+        padding-right:15px;
+        padding:20px 10px;
+    }
+    
+    
+    .example4 p{
+        font-size:	19px;
+        text-align:	center;
+        bottom:		24px;
+        margin-left:54px;
+        padding:	10px;
+        color:		#fff;
+        background:	#a0ecdd;
+        position:	absolute; 
+        width:		457px;
+        opacity: 0.8;
+    }
+    
+    
+    .example5{
+        position: relative;
+        /* float:left; */
+        padding-right:15px;
+        padding:20px 10px;
+        
+    }
+    
+    .example5 p{
+        font-size:	19px;
+        text-align:	center;
+        bottom:		24px;
+        margin-left:54px;
+        padding:	10px;
+        color:		#fff;
+        background:	#a0ecdd;
+        position:	absolute; 
+        width:		457px;
+        opacity: 0.8;
+        
+    }
+    
+    
+    .footer{
+        position: sticky;
+        width:100%;
+        height:75px;
+        background-color:#666666;
+        position:absolute;
+        margin-top:10px;
+        border-top: 8px solid #4aaaa5;
+    }
+    
+    .footer-p{
+        color:white;
+        font-size:15px;
+        text-align:center;
+    } 
+    
+}
+
 @media screen and (max-width: 640px) {
 
     .header{
@@ -294,7 +742,7 @@ img{
     hr{
     
         background-color:#dddddd;
-        width:580px;
+        width:400px;
         height:2px;
         border:none;
     }
@@ -311,7 +759,7 @@ img{
         left: 50%;
         transform: translate(-50%, -50%);
         border:solid 1px #cccccc; */
-        margin-top:1050px; 
+        margin-top:1200px; 
         /* padding: 10px 10px;
         margin-right:10px; 
         padding-top:-40px */
@@ -341,13 +789,13 @@ img{
         font-size:	19px;
         text-align:	center;
         bottom:		24px;
-        margin:		0;
-        padding:	0;
+        margin-left:54px;
+        padding:	10px;
         color:		#fff;
         background:	#a0ecdd; 
         opacity: 0.8;
         position:	absolute; 
-        width:		170px;
+        width:		375px;
     }
             
     .example1:hover{
@@ -365,12 +813,12 @@ img{
         font-size:	19px;
         text-align:	center;
         bottom:		24px;
-        margin:		0;
-        padding:	0;
+        margin-left:54px;
+        padding:	10px;
         color:		#fff;
         background:	#a0ecdd; 
         position:	absolute; 
-        width:		170px;
+        width:		375px;
         opacity: 0.8;
     }
     
@@ -385,12 +833,12 @@ img{
         font-size:	19px;
         text-align:	center;
         bottom:		24px;
-        margin:		0;
-        padding:	0;
+        margin-left:54px;
+        padding:	10px;
         color:		#fff;
         background:	#a0ecdd; 
         position:	absolute; 
-        width:		170px;
+        width:		375px;
         opacity: 0.8;
     }
     
@@ -406,12 +854,12 @@ img{
         font-size:	19px;
         text-align:	center;
         bottom:		24px;
-        margin:		0;
-        padding:	0;
+        margin-left:54px;
+        padding:	10px;
         color:		#fff;
         background:	#a0ecdd;
         position:	absolute; 
-        width:		170px;
+        width:		375px;
         opacity: 0.8;
     }
     
@@ -428,12 +876,12 @@ img{
         font-size:	19px;
         text-align:	center;
         bottom:		24px;
-        margin:		0;
-        padding:	0;
+        margin-left:54px;
+        padding:	10px;
         color:		#fff;
         background:	#a0ecdd;
         position:	absolute; 
-        width:		170px;
+        width:		375px;
         opacity: 0.8;
         
     }
