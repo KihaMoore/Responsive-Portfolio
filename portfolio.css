@@ -64,7 +64,7 @@ a:hover{
 }  */
 
 .about-wrapper{
-    background-image: url("/css/images/intersection.png");
+    background-image: url("css/images/intersection.png");
     width:100%;
     height:1000px;
     margin-bottom:-10px;
@@ -287,7 +287,7 @@ a:hover{
 
 
 .about-wrapper{
-    background-image: url("/Users/kihamoore/Desktop/Bootcamp/Responsive-Portfolio/css/images/intersection.png");
+    background-image: url("css/images/intersection.png");
     width:100%;
     height:790px;
     margin-bottom:-10px;
@@ -505,7 +505,7 @@ img{
     }
 
     .about-wrapper{
-        background-image: url("/Users/kihamoore/Desktop/Bootcamp/Responsive-Portfolio/css/images/intersection.png");
+        background-image: url("css/images/intersection.png");
         width:100%;
         height:3000px;
         padding:0 auto;
@@ -727,7 +727,7 @@ img{
     }
 
     .about-wrapper{
-        background-image: url("/Users/kihamoore/Desktop/Bootcamp/Responsive-Portfolio/css/images/intersection.png");
+        background-image: url("css/images/intersection.png");
         width:100%;
         height:2700px;
         padding:0 auto;
