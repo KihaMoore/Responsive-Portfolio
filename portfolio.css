@@ -273,6 +273,7 @@ li{
     float:right;
     padding: 20px 35px;
     color:#777777;
+    line-height:50px;
     
 }
 
@@ -289,7 +290,7 @@ a:hover{
 .about-wrapper{
     background-image: url("css/images/intersection.png");
     width:100%;
-    height:790px;
+    height:850px;
     margin-bottom:-10px;
     
 }
@@ -307,14 +308,14 @@ hr{
     width:600px;
     height:550px;
     background-color:white;
-    position: absolute;
-	top: 50%; 
-	left: 50%;
-    transform: translate(-50%, -50%);
     border:solid 1px #cccccc;
-    padding: 10px 10px;
-    margin-right:10px;
-    margin-top:300px;
+    margin-top:250px;
+
+    
+
+
+
+    
 }
 
 h1{
@@ -492,6 +493,7 @@ img{
         
         padding: 45px 15px;
         color:#777777;
+        padding-right:50px;
         
     }
     
@@ -507,7 +509,7 @@ img{
     .about-wrapper{
         background-image: url("css/images/intersection.png");
         width:100%;
-        height:3000px;
+        height:3200px;
         padding:0 auto;
         /* margin-top:10px;
          */
@@ -528,7 +530,7 @@ img{
     
     .gallery{
         
-        margin-top:1400px;
+        margin-top:1350px;
         width:80%;;
         height:2700px;
         
@@ -731,6 +733,7 @@ img{
         width:100%;
         height:2700px;
         padding:0 auto;
+        
         /* margin-top:10px;
          */
 
@@ -759,7 +762,7 @@ img{
         left: 50%;
         transform: translate(-50%, -50%);
         border:solid 1px #cccccc; */
-        margin-top:1200px; 
+        margin-top:1100px; 
         /* padding: 10px 10px;
         margin-right:10px; 
         padding-top:-40px */
